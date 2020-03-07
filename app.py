@@ -10,7 +10,7 @@ from flask import Flask, render_template, request, flash, redirect, url_for, jso
 from flask_migrate import Migrate
 from flask_moment import Moment
 from flask_sqlalchemy import SQLAlchemy
-#from models import  Venue, Artist, Show
+from models import  Venue, Artist, Show
 from forms import *
 
 # ----------------------------------------------------------------------------#

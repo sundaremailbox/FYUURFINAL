@@ -10,5 +10,5 @@ DEBUG = True
 
 # Connect to the database
 SQLALCHEMY_TRACK_MODIFICATIONS = False
-SQLALCHEMY_DATABASE_URI = 'postgres://sundar:admin@localhost:5432/postgres'
+SQLALCHEMY_DATABASE_URI = 'postgres://postgres:root@localhost:5432/app'
 
